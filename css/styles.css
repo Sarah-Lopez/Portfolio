@@ -1,0 +1,69 @@
+body {
+    /* background-image: url(images/sunset.jpg);
+    background-image: url(images/camelbackpic.jpg); */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgb(136, 48, 132), rgb(48, 120, 161));
+
+}
+
+/* Navbar */
+.navbar-custom {
+    /* background-color: #413a53; */
+}
+
+/* End Navbar */
+
+.img-fluid {
+    box-shadow: 10px 10px 8px #e29577;
+    size: 360px, 300px;
+    max-width: 300px;
+    max-height: 360px;
+    margin: 0 auto;
+}
+
+.col-md-8 {
+    padding-top: 15px;
+    margin: 0 auto;
+
+}
+
+.row {
+    margin: 0 auto;
+    
+}
+
+.container {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#portfoliocontainer {
+    align-content: center;
+}
+
+.description {
+
+    margin-left: 40px;
+}
+/* P tag indentation*/
+.tab { 
+    margin-left: 40px;
+    text-indent:40px;    
+}
+
+.button {
+    align-items: center;
+    align-content: center;
+    margin-left: 20%;
+    color: white;
+
+}
+
+/* filler prevents white space at bottom of page. Find a cleaner fix later */
+#filler {
+    /* height: 10%;
+    line-height: 20%; */
+    margin: 2.9%;
+}
