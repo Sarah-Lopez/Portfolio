@@ -10,7 +10,7 @@ body {
 
 
 .img-fluid {
-    box-shadow: 10px 10px 8px #e29577;
+    box-shadow: 10px 10px 8px #499c5e;
     size: 360px, 300px;
     max-width: 300px;
     max-height: 360px;
@@ -26,6 +26,10 @@ body {
 .row {
     margin: 0 auto;
     
+}
+
+.mainContainer {
+    color: white;
 }
 
 .container {
