@@ -1,16 +1,16 @@
 body {
-    /* background-image: url(images/sunset.jpg);
-    background-image: url(images/camelbackpic.jpg); */
-
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(rgb(136, 48, 132), rgb(48, 120, 161));
-
+    
 }
 
+html, body {
+    min-height: 100%;
+}
 
 .img-fluid {
-    box-shadow: 10px 10px 8px #499c5e;
+    /* box-shadow: 10px 10px 8px #499c5e; */
     size: 360px, 300px;
     max-width: 300px;
     max-height: 360px;
@@ -25,7 +25,6 @@ body {
 
 .row {
     margin: 0 auto;
-    
 }
 
 .mainContainer {
@@ -37,6 +36,27 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
+
+/* Contact page contact info column */
+.col-md-4 {
+    height: 70%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3%;
+    justify-content: center;
+}
+
+/* Contact page message me column */
+.col-md-9 .mb-md-0 .mb-5 {
+    height: 70%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3%;
+    justify-content: center;
+    
+}
+
 #portfoliocontainer {
     align-content: center;
 }
@@ -57,11 +77,4 @@ body {
     margin-left: 20%;
     color: white;
 
-}
-
-/* filler prevents white space at bottom of page. Find a cleaner fix later */
-#filler {
-    /* height: 10%;
-    line-height: 20%; */
-    margin: 2.9%;
 }
