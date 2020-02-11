@@ -17,16 +17,6 @@ html, body {
     margin: 0 auto;
 }
 
-.col-md-8 {
-    padding-top: 15px;
-    margin: 0 auto;
-
-}
-
-.row {
-    margin: 0 auto;
-}
-
 .mainContainer {
     color: white;
 }
@@ -37,24 +27,14 @@ html, body {
     font-size: 20px;
 }
 
-
 /* Contact page contact info column */
-.col-md-4 {
+.col-md-6 {
     height: 70%;
     width: 50%;
     margin: 0 auto;
     padding: 3%;
     justify-content: center;
-}
-
-/* Contact page message me column */
-.col-md-9 .mb-md-0 .mb-5 {
-    height: 70%;
-    width: 50%;
-    margin: 0 auto;
-    padding: 3%;
-    justify-content: center;
-    
+    margin-top: 10%;
 }
 
 #portfoliocontainer {
@@ -62,9 +42,9 @@ html, body {
 }
 
 .description {
-
     margin-left: 40px;
 }
+
 /* P tag indentation*/
 .tab { 
     margin-left: 40px;
@@ -76,5 +56,4 @@ html, body {
     align-content: center;
     margin-left: 20%;
     color: white;
-
 }
