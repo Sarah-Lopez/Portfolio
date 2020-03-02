@@ -2,7 +2,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(rgb(136, 48, 132), rgb(48, 120, 161));
-    
 }
 
 html, body {
@@ -56,4 +55,18 @@ html, body {
     align-content: center;
     margin-left: 20%;
     color: white;
+}
+
+/* #starKey {
+    background-color: #f8f9fa;
+    color: black;
+} */
+
+
+.card-body {
+    color:  #6c757d!important;
+}
+
+#grey {
+    color: gray;
 }
